@@ -1,0 +1,102 @@
+.tituloPagina{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin: 10px;
+}
+
+hr{
+    margin: 15px;
+}
+
+.bloco1{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    align-self: center;
+    align-content: center;
+}
+
+.bloco2{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    align-self: center;
+    align-content: center;
+}
+
+.bloco3{
+    background-color: purple;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    align-self: center;
+    align-content: center;
+}
+
+.conteinerRow{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteinerColumn{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteinerRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteinerColumnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.nomePropriedade{
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 20px;
+}
+
+.valorPropriedade{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 30px;
+    padding-bottom: 5px;
+}
