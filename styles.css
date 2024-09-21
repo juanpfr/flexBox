@@ -12,6 +12,27 @@ hr{
     margin: 15px;
 }
 
+/* h1 e h2 */
+
+.nomePropriedade{
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 20px;
+}
+
+.valorPropriedade{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+/* blocos */
+
 .bloco1{
     background-color: blue;
     height: 150px;
@@ -20,8 +41,6 @@ hr{
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
-    align-self: center;
-    align-content: center;
 }
 
 .bloco2{
@@ -32,8 +51,6 @@ hr{
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
-    align-self: center;
-    align-content: center;
 }
 
 .bloco3{
@@ -44,9 +61,70 @@ hr{
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
-    align-self: center;
-    align-content: center;
 }
+
+/* blocos sem altura */
+
+.bloco1SemAltura{
+    background-color: blue;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2SemAltura{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3SemAltura{
+    background-color: purple;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+/* blocos fontes diferentes */
+
+.bloco1FontesDiferentes{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2FontesDiferentes{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3FontesDiferentes{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+/* flex-direction: */
 
 .conteinerRow{
     display: flex;
@@ -84,19 +162,175 @@ hr{
     gap: 10px;
 }
 
-.nomePropriedade{
-    font-size: 2em;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-    padding: 20px;
+/* justify-content: */
+
+.justifyContentCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
 }
 
-.valorPropriedade{
-    font-size: 1.5em;
-    font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
-    padding: 30px;
-    padding-bottom: 5px;
+.justifyContentFlexStart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;                  
+    gap: 10px;
 }
+
+.justifyContentFlexEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;                  
+    gap: 10px;
+}
+
+.justifyContentSpaceBetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;                  
+    gap: 10px;
+}
+
+.justifyContentSpaceAround{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;                  
+    gap: 10px;
+}
+
+.justifyContentSpaceEvenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;                  
+    gap: 10px;
+}
+
+/* align-items */
+
+.alignItemsCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignItemsFlexStart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignItemsFlexEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignItemsStretch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+/* alinha conforme a base da fonte */
+.alignItemsBaseline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+/* flax wrap */
+
+.flexWrapNoWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.flexWrapWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.flexWrapWrapReverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.flexFlowRowNoWrap{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap; /* row é valor do flex-direction e o outro é do wrap */
+    /* flex-wrap: nowrap; */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+/* 16 01 05 03 17 */
