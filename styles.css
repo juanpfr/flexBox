@@ -5,12 +5,48 @@
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
-    margin: 10px;
+    margin: 20px;
 }
 
 hr{
     margin: 15px;
 }
+
+/* Menu */
+
+.menu{
+    background-color: black;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: solid 3px white;
+    border-radius: 20px;
+    transition: ease 1s;
+}
+
+.menu a:hover{
+    border: solid 3px purple;
+    color: purple;
+    background-color: white;
+}
+
+
 
 /* h1 e h2 */
 
@@ -332,5 +368,84 @@ hr{
     height: 500px;
     gap: 10px;
 }
+
+.alignContentCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignContentFlexStart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignContentFlexEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignContentSpaceBetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignContentSpaceAround{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
+.alignContentSpaceEvenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    gap: 10px;
+}
+
 
 /* 16 01 05 03 17 */
